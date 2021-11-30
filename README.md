@@ -39,7 +39,7 @@ https://my-ewallet-demo.herokuapp.com
 
 ## API Docs
 [API Docs](https://documenter.getpostman.com/view/11431269/UVJeEazj)
-Click here to watch execution video [Here](https://drive.google.com/file/d/1tApjKn0bOPYAQkbMBRmNe71WjMpsebY3/view?usp=sharing)
+Click here to watch execution video [Here](https://youtu.be/Hm_99aNFZ2k)
 
 ## Improvements and Future Scope:
 1. Extend Test coverage to all API's.
