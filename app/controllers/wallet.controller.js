@@ -30,24 +30,23 @@ exports.create = (req, res) => {
   };
 
 //Create Transaction
-exports.createTransaction = (req, res) => {
+exports.createTransaction = async (req, res) => {
     const transactionWalletId = req.params.walletId;
     if (!req.body.amount || !req.body.description) {
       res.status(400).send({ message: "Amount/Description are mandatory fields" });
       return;
     }
     let tid = Math.floor(Math.random()*8999999999+1000000000);
+    
+    const { balance } = await Wallet.findById(transactionWalletId)
 
-    // Wallet.findById(transactionWalletId)
-    // .then(data => {
-    //   var balance = data.balance.value;
-    // })
     if (req.body.amount < 0){
       transactionType = "DEBIT"
     }else{
       transactionType = "CREDIT"
     }
-    newBalance = 30.3435 + req.body.amount
+
+    newBalance = balance.value + req.body.amount
 
     body = {
       'balance': newBalance
