@@ -34,6 +34,8 @@ npm test
 5. index.js is the main file also entry point.
 6. Tests are written under __tests__ directory.
 
+## Base Url
+https://my-ewallet-demo.herokuapp.com
 
 ## API Docs
 [API Docs](https://documenter.getpostman.com/view/11431269/UVJeEazj)
