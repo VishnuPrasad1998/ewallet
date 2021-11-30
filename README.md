@@ -6,7 +6,7 @@ E wallet is an online wallet system which has the following features:
 4. Listing transactions with pagination and ordering.
 
 # Libraries/Frameworks/Tools Used:
-JavaScript(ES6), NodeJS, ExpressJS, Mongoose, MongoDB Atlas, Heroku.
+JavaScript(ES6), NodeJS, ExpressJS, Mongoose, MongoDB Atlas, Heroku, Jest Supertest.
 
 ## Steps for Installation and Running:
 1. Clone the repo using ```
