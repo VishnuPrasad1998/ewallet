@@ -26,6 +26,15 @@ nodemon index.js
 npm test
 ```
 
+## Code Walkthrough
+1. DB config is kept under config/ directory
+2. Model Schema is kept under models/ directory. In which models for wallet and transactions are defined under seperate files
+3. All the routes are kept under routes/ directory
+4. The core service logic is kept under controllers/ directory
+5. index.js is the main file also entry point.
+6. Tests are written under __tests__ directory.
+
+
 ## API Docs
 [API Docs](https://documenter.getpostman.com/view/11431269/UVJeEazj)
 Click here to watch execution video [Here](https://drive.google.com/file/d/1tApjKn0bOPYAQkbMBRmNe71WjMpsebY3/view?usp=sharing)
