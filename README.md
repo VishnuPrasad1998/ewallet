@@ -20,8 +20,8 @@ npm install
 ```
 nodemon index.js
 ```
-5. To test API use postman(Either use the API docs attached below/To test locally import api_collection.json
-6. To run tests using Jest/Supertest run 
+5. To test API use postman(Either use the API docs attached below/To test locally import api_collection.json on postman)
+6. To run tests using Jest/Supertest run(Please make sure walled id's exist in db since test is run over orginal data) 
 ```
 npm test
 ```
