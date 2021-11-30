@@ -1,0 +1,584 @@
+{
+	"info": {
+		"_postman_id": "f5be5b07-822f-4c12-bcf8-2c040601c3e4",
+		"name": "GoHighLevel Task API's",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Wallet Setup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Crypto\",\n    \"balance\": 2875.83747\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://my-ewallet-demo.herokuapp.com/setup",
+					"protocol": "https",
+					"host": [
+						"my-ewallet-demo",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"setup"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Wallet Setup",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Crypto\",\n    \"balance\": 2875.83747\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://my-ewallet-demo.herokuapp.com/setup",
+							"protocol": "https",
+							"host": [
+								"my-ewallet-demo",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"setup"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "132"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"84-F2AUbEAugztVmGqV/uonByFdJfg\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 30 Nov 2021 13:01:37 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"Crypto\",\n    \"balance\": 2875.8375,\n    \"transactionId\": \"9774584339\",\n    \"date\": \"2021-11-30T13:01:37.737Z\",\n    \"id\": \"61a620b1df813767bb2292e4\"\n}"
+				},
+				{
+					"name": "Wallet Setup",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Crypto\",\n    \"balance\": 2875.83747\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://my-ewallet-demo.herokuapp.com/setup",
+							"protocol": "https",
+							"host": [
+								"my-ewallet-demo",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"setup"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "132"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"84-HAvttisEvhqLxx9F3ZMF1hSxBxk\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 30 Nov 2021 13:22:07 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"Crypto\",\n    \"balance\": 2875.8375,\n    \"transactionId\": \"9808518678\",\n    \"date\": \"2021-11-30T13:22:07.202Z\",\n    \"id\": \"61a6257fdf813767bb2292fa\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Wallet Details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://my-ewallet-demo.herokuapp.com/wallet/61a6257fdf813767bb2292fa",
+					"protocol": "https",
+					"host": [
+						"my-ewallet-demo",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"wallet",
+						"61a6257fdf813767bb2292fa"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Wallet Details",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://my-ewallet-demo.herokuapp.com/wallet/61a6257fdf813767bb2292fa",
+							"protocol": "https",
+							"host": [
+								"my-ewallet-demo",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"wallet",
+								"61a6257fdf813767bb2292fa"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "132"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"84-HAvttisEvhqLxx9F3ZMF1hSxBxk\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 30 Nov 2021 13:24:12 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"Crypto\",\n    \"balance\": 2875.8375,\n    \"transactionId\": \"9808518678\",\n    \"date\": \"2021-11-30T13:22:07.202Z\",\n    \"id\": \"61a6257fdf813767bb2292fa\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Transaction - Debit",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"amount\": -100,\n    \"description\": \"Doge Coin\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://my-ewallet-demo.herokuapp.com/transact/61a6257fdf813767bb2292fa",
+					"protocol": "https",
+					"host": [
+						"my-ewallet-demo",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"transact",
+						"61a6257fdf813767bb2292fa"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Transaction - Debit",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"amount\": -100,\n    \"description\": \"Doge Coin\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://my-ewallet-demo.herokuapp.com/transact/61a6257fdf813767bb2292fa",
+							"protocol": "https",
+							"host": [
+								"my-ewallet-demo",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"transact",
+								"61a6257fdf813767bb2292fa"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "209"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"d1-96BVP8EfPf0DFXX5O3Y7qQ46GW0\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 30 Nov 2021 13:25:15 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"description\": \"Doge Coin\",\n    \"amount\": -100,\n    \"walletId\": \"61a6257fdf813767bb2292fa\",\n    \"balance\": 2775.8375,\n    \"type\": \"DEBIT\",\n    \"transactionId\": \"5749467963\",\n    \"date\": \"2021-11-30T13:25:15.228Z\",\n    \"id\": \"61a6263bdf813767bb229300\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Transaction - Credit",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"amount\": 300,\n    \"description\": \"Dividend\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://my-ewallet-demo.herokuapp.com/transact/61a6257fdf813767bb2292fa",
+					"protocol": "https",
+					"host": [
+						"my-ewallet-demo",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"transact",
+						"61a6257fdf813767bb2292fa"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Transaction - Credit",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"amount\": 300,\n    \"description\": \"Dividend\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://my-ewallet-demo.herokuapp.com/transact/61a6257fdf813767bb2292fa",
+							"protocol": "https",
+							"host": [
+								"my-ewallet-demo",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"transact",
+								"61a6257fdf813767bb2292fa"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "208"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"d0-XGVnqKtvFbA3xZiWIvOMKTSvLFo\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 30 Nov 2021 13:30:10 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"description\": \"Dividend\",\n    \"amount\": 300,\n    \"walletId\": \"61a6257fdf813767bb2292fa\",\n    \"balance\": 3145.1675,\n    \"type\": \"CREDIT\",\n    \"transactionId\": \"7853273905\",\n    \"date\": \"2021-11-30T13:30:10.631Z\",\n    \"id\": \"61a62762df813767bb229310\"\n}"
+				}
+			]
+		},
+		{
+			"name": "List Transactions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://my-ewallet-demo.herokuapp.com/transactions?walletId=61a6257fdf813767bb2292fa&skip=0&limit=2",
+					"protocol": "https",
+					"host": [
+						"my-ewallet-demo",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"transactions"
+					],
+					"query": [
+						{
+							"key": "walletId",
+							"value": "61a6257fdf813767bb2292fa"
+						},
+						{
+							"key": "skip",
+							"value": "0"
+						},
+						{
+							"key": "limit",
+							"value": "2"
+						}
+					]
+				},
+				"description": "By default skip = 0 and limit = 10"
+			},
+			"response": [
+				{
+					"name": "List Transactions",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://my-ewallet-demo.herokuapp.com/transactions?walletId=61a6257fdf813767bb2292fa&skip=0&limit=2",
+							"protocol": "https",
+							"host": [
+								"my-ewallet-demo",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"transactions"
+							],
+							"query": [
+								{
+									"key": "walletId",
+									"value": "61a6257fdf813767bb2292fa"
+								},
+								{
+									"key": "skip",
+									"value": "0"
+								},
+								{
+									"key": "limit",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "417"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"1a1-tmC9mxcZb5o+DKpXbeep93/fHEs\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 30 Nov 2021 13:28:00 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"description\": \"BTC\",\n        \"amount\": -230.67,\n        \"walletId\": \"61a6257fdf813767bb2292fa\",\n        \"balance\": 2845.1675,\n        \"type\": \"DEBIT\",\n        \"transactionId\": \"7405255642\",\n        \"date\": \"2021-11-30T13:27:48.856Z\",\n        \"id\": \"61a626d4df813767bb22930a\"\n    },\n    {\n        \"description\": \"Dividend\",\n        \"amount\": 300,\n        \"walletId\": \"61a6257fdf813767bb2292fa\",\n        \"balance\": 3075.8375,\n        \"type\": \"CREDIT\",\n        \"transactionId\": \"7035801297\",\n        \"date\": \"2021-11-30T13:26:42.663Z\",\n        \"id\": \"61a62692df813767bb229305\"\n    }\n]"
+				}
+			]
+		}
+	]
+}
