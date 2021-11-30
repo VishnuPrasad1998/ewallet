@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --forceExit"
   },
   "keywords": [
     "nodejs",
@@ -23,10 +23,15 @@
     "mongoose": "^6.0.13",
     "uuid": "^8.3.2"
   },
-  "engines": {
-    "node": "14.x"
-  },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "jest": "^27.4.1",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.1.6"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
   }
 }
