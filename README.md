@@ -45,3 +45,7 @@ Click here to watch execution video [Here](https://youtu.be/Hm_99aNFZ2k)
 1. Extend Test coverage to all API's.
 2. Implement Authentication and Authorization
 3. Now Mongodb atlas url is exposed. It should be added to an environment variable in case of production.
+
+## Ewallet UI:
+[Click here to view github](https://github.com/VishnuPrasad1998/ewallet-ui)
+[Click here to view execution video](https://youtu.be/ze3eCJ8HPbo)
